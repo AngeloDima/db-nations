@@ -60,7 +60,7 @@ public class NationJavaDb {
 		    }
 		}
 		
-		
+		scan.close();
 
 	}
 
