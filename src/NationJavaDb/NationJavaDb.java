@@ -36,7 +36,7 @@ public class NationJavaDb {
 			 try(ResultSet rs =ps.executeQuery() )  {
 			  //qui posso utilizzare il ResultSet
 				 
-				 System.out.println("Id nazione\t\tnazione\t\t\tregione\t\t\tContinente");
+				 System.out.println("Id nazione\t\tnazione\t\t\t\t\t\t\tregione\t\t\t\t\t\t\t\t\t\t\t\tContinente");
 				  while (rs.next()) { 
 					  System.out.println(
 							  rs.getString(1) +"\t\t\t"+
